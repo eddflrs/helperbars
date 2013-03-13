@@ -29,7 +29,7 @@
     return s.replace(/^\s+|\s+$/g,'');
   });
 
-  H.registerHelper('_safe', function(s) {
+  H.registerHelper('_safe', function (s) {
     return new H.SafeString(s);
   });
 
